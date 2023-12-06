@@ -1,0 +1,12 @@
+uber:
+ target: dev
+ outputs:
+  dev:
+    type: bigquery
+    method: service-account
+    keyfile: /usr/local/airflow/include/gcp/service_account.json
+    project: uber-data-engineering-407103
+    dataset: uber
+    threads: 1
+    timeout_seconds: 300
+    location: US

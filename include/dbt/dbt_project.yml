@@ -1,0 +1,7 @@
+name: 'uber'
+
+profile: 'uber'
+
+models:
+  uber:
+    materialized: table
